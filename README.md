@@ -4,3 +4,4 @@
 2. Sql triggera
 3. Sql indexa
 4. Execution plans
+5. SSRS reporting
