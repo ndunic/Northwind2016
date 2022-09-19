@@ -16,4 +16,4 @@
 --Hint
 --To solve this problem, you need to combine a join, and a group by. 
 --A good way to start is by creating a query that shows the CategoryName and all ProductIDs associated 
---with it, without grouping. Then, add the Group byselect 	CategoryName, 	count(1) TotalProductsfrom dbo.Categories catleft join dbo.Products pro on cat.CategoryID = pro.CategoryIDgroup by CategoryNameorder by 2 desc
+--with it, without grouping. Then, add the Group byselect 	CategoryName, 	count(1) TotalProductsfrom dbo.Categories catleft join dbo.Products pro on cat.CategoryID = pro.CategoryIDgroup by CategoryNameorder by 2 desc--tesni novi komentar za github
