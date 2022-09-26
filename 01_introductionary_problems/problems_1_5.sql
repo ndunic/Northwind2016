@@ -51,7 +51,7 @@ from Northwind.dbo.Employees
 --Now we'd like to see the same columns as above, but only for those employees that both have the title of 
 --Sales Representative, and also are in the United States.
 --Hint
---To apply multiple filters in a where clause, use �and� to separate the filters.
+--To apply multiple filters in a where clause, use "and" to separate the filters.
 
 select 
 	FirstName,
@@ -67,7 +67,7 @@ from Northwind.dbo.Employees
 --Show all the orders placed by a specific employee. The EmployeeID for this Employee (Steven
 --Buchanan) is 5.
 --Hint
---The EmployeeID is an integer field, and not a string field. So, the value �5� does not need to be 
+--The EmployeeID is an integer field, and not a string field. So, the value "5" does not need to be 
 --surrounded by single quotes in the where clause.
 
 select
