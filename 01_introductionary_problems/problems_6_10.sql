@@ -73,3 +73,5 @@ where ShipCountry in ('Argentina','Brazil','Mexico','Venezuela')--10. Employee
 --For all the employees in the Employees table, show the FirstName, LastName, Title, and BirthDate. Order 
 --the results by BirthDate, so we have the oldest employees first.--Hint
 --You’ll need to use the Order by clause here for sorting the results. Look online for examplesselect	FirstName	, LastName	, Title	, BirthDateFrom Northwind.dbo.Employeesorder by BirthDate -- iza 4 dodas desc za descending
+
+--test za git
